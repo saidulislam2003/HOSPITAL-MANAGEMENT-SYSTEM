@@ -1,12 +1,12 @@
 #include<iostream>
 #include<conio.h>
-#include"DoctorList.cpp"
+#include"DoctorList.h"
 using namespace std;
 
 int main()
 {
     cout << "\t\t\t\t\tBomvola Medical Center" << endl;
-    cout << "\t\t\t\t\t----------------------" << endl;
+    cout << "\t\t\t\t\t==========================" << endl;
     cout << endl;
     cout << "\t\t\t\t\tWELCOME TO OUR HOSPITAL";
     cout << endl << endl << endl;

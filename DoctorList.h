@@ -1,3 +1,7 @@
+// #ifndef DOCTORLIST_H 
+// #define DOCTORLIST_H
+#pragma
+
 #include<iostream>
 using namespace std;
 
@@ -87,7 +91,7 @@ class Medicine : public DoctorInfo
     void display()
     {
         cout << endl;
-        cout << "--------------------------" << endl;
+        cout << "==============================" << endl;
         cout << name << endl;
         cout << "Room: " << room << endl;
         cout << post << endl;
@@ -211,6 +215,8 @@ class Neurology : public DoctorInfo
         cout << contact << endl;
     }
 };
+
+// #endif 
 
 
 
