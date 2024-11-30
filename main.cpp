@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 #include<conio.h>
 #include"DoctorList.h"
 using namespace std;
@@ -35,11 +36,24 @@ int main()
                 Cardiology("Dr. Anowar", 1009, "0192929373", "Dhaka Medical College", "Professor", 1),
                 Cardiology("Dr. Rafiq", 2014, "0156767596", "Rajshahi Medical College", "Associate Professor", 2),
                 Cardiology("Dr. Leokey", 3002, "0164554343", "Ahsania Mission Medical College", "Assistant Professor", 3),
-        };
+            };
             for(int i = 0; i < 3; i++)
             {
                 Cardio[i].display();
             }
+                // ifstream in;
+                // string st;
+                // in.open("Cardiology.txt");
+                // // in >> st >> st2;
+                // // cout << st << st2;
+
+                // while(in.eof() == 0)
+                // {
+                //     getline(in, st);
+                //     cout << st << endl;
+                // }
+
+                // in.close();
         }
 
         else if(department == "Orthopedics")
