@@ -71,5 +71,158 @@ int main()
 
             Derma.close();
         }
+
+        else if(department == "Endocrinology")
+        {
+            ifstream Endo;
+            string e;
+            Endo.open("Endocrinology.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Endo.eof() == 0)
+            {
+                getline(Endo, e);
+                cout << e << endl;
+            }
+
+            Endo.close();
         }
+
+        else if(department == "Gastroenterology")
+        {
+            ifstream Gastro;
+            string g;
+            Gastro.open("Gastroenterology.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Gastro.eof() == 0)
+            {
+                getline(Gastro, g);
+                cout << g << endl;
+            }
+
+            Gastro.close();
+        }
+
+        else if(department == "Gynecology")
+        {
+            ifstream Gyneco;
+            string gy;
+            Gyneco.open("Gynecology.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Gyneco.eof() == 0)
+            {
+                getline(Gyneco, gy);
+                cout << gy << endl;
+            }
+
+            Gyneco.close();
+        }
+
+        else if(department == "Hematology")
+        {
+            ifstream Hema;
+            string h;
+            Hema.open("Hematology.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Hema.eof() == 0)
+            {
+                getline(Hema, h);
+                cout << h << endl;
+            }
+
+            Hema.close();
+        }
+
+        else if(department == "Medicine")
+        {
+            ifstream Medi;
+            string m;
+            Medi.open("Medicine.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Medi.eof() == 0)
+            {
+                getline(Medi, m);
+                cout << m << endl;
+            }
+
+            Medi.close();
+        }
+
+        else if(department == "Neurology")
+        {
+            ifstream Neuro;
+            string n;
+            Neuro.open("Neurology.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Neuro.eof() == 0)
+            {
+                getline(Neuro, n);
+                cout << n << endl;
+            }
+
+            Neuro.close();
+        }
+
+        else if(department == "Orthopedics")
+        {
+            ifstream Ortho;
+            string o;
+            Ortho.open("Orthopedics.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Ortho.eof() == 0)
+            {
+                getline(Ortho, o);
+                cout << o << endl;
+            }
+
+            Ortho.close();
+        }
+
+        else if(department == "Surgery")
+        {
+            ifstream Sur;
+            string s;
+            Sur.open("Surgery.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Sur.eof() == 0)
+            {
+                getline(Sur, s);
+                cout << s << endl;
+            }
+
+            Sur.close();
+        }
+
+        else if(department == "Urology")
+        {
+            ifstream Uro;
+            string u;
+            Uro.open("Urology.txt");
+            // in >> st >> st2;
+            // cout << st << st2;
+
+            while(Uro.eof() == 0)
+            {
+                getline(Uro, u);
+                cout << u << endl;
+            }
+
+            Uro.close();
+        }
+    }
 }
