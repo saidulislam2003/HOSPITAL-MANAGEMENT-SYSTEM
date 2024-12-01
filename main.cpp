@@ -1,23 +1,21 @@
 #include<iostream>
-#include<string>
 #include<conio.h>
 #include"DoctorList.h"
+#include"appointment.h"
 using namespace std;
 
 int main()
 {
     cout << "\t\t\t\t\tBomvola Medical Center" << endl;
-    cout << "\t\t\t\t\t==========================" << endl;
+    cout << "\t\t\t\t\t----------------------" << endl;
     cout << endl;
     cout << "\t\t\t\t\tWELCOME TO OUR HOSPITAL";
     cout << endl << endl << endl;
 
-    int n1 = 1;
-    cout << "\t\t\t\t\t"<< n1 << "." << " " << "Doctor list." << endl;
-    int n2 = 2;
-    cout << "\t\t\t\t\t" << n2 << "." << " " << "Request for an appointment" << endl;
-    int n3 = 3;
-    cout << "\t\t\t\t\t" << n3 << ". All appointments (Doctor Wise)\n\n";
+    int n1 = 1, n2 = 2, n3 = 3;
+    cout << "\t\t\t\t\t" << n1 << ". Doctor list." << endl;
+    cout << "\t\t\t\t\t" << n2 << ". Request for an appointment" << endl;
+    cout << "\t\t\t\t\t" << n3 << ". Exit\n\n";
     cout << "\t\t\t\t\tEnter your choice: ";
 
     int n;
@@ -36,24 +34,11 @@ int main()
                 Cardiology("Dr. Anowar", 1009, "0192929373", "Dhaka Medical College", "Professor", 1),
                 Cardiology("Dr. Rafiq", 2014, "0156767596", "Rajshahi Medical College", "Associate Professor", 2),
                 Cardiology("Dr. Leokey", 3002, "0164554343", "Ahsania Mission Medical College", "Assistant Professor", 3),
-            };
+        };
             for(int i = 0; i < 3; i++)
             {
                 Cardio[i].display();
             }
-                // ifstream in;
-                // string st;
-                // in.open("Cardiology.txt");
-                // // in >> st >> st2;
-                // // cout << st << st2;
-
-                // while(in.eof() == 0)
-                // {
-                //     getline(in, st);
-                //     cout << st << endl;
-                // }
-
-                // in.close();
         }
 
         else if(department == "Orthopedics")
@@ -137,18 +122,18 @@ int main()
     }
     else if(n == n2)
     {
-
+        Patient p;
+        p.inputDetails();
+        p.appointment();
+        
     }
     else if(n == n3)
     {
-
+        cout << "Thank you for visiting Bomvola Medical Center. Goodbye!\n";
     }
 
     else{
         cout << "\t\t\t\t\tInvalid Choice. Please try again." << endl;
     }
-    // system("pause");
-    // system("cls");
     getch();
-
 }
