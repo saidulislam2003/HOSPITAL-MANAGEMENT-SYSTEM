@@ -1,3 +1,0 @@
-Name    Room     Contact    Department     Institution      Position
-John    101     1234567890  Cardiology     ABC_Hospital     Professor
-Jane    102     0987654321  Cardiology     XYZ_Hospital     Assistant
