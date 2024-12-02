@@ -16,6 +16,7 @@ int main()
     cout << "\t\t\t\t\t" << n1 << ". Doctor list." << endl;
     cout << "\t\t\t\t\t" << n2 << ". Request for an appointment" << endl;
     cout << "\t\t\t\t\t" << n3 << ". Exit\n\n";
+ while(true){   
     cout << "\t\t\t\t\tEnter your choice: ";
 
     int n;
@@ -142,4 +143,5 @@ int main()
         cout << "\t\t\t\t\tInvalid Choice. Please try again." << endl;
     }
     getch();
+ }
 }
