@@ -68,7 +68,7 @@ public:
             getline(cin, preferredDate);
 
             cout << "\n\t\t\t\t\t\t\t\t\tAppointment confirmed!\n";
-            cout << "\t\t\t\t\tDepartment:  " << department << "\n\t\t\t\t\tProcedure: " << procedure << "\n\t\t\t\t\tDate: " << preferredDate << endl;
+            cout << "\t\t\t\t\tName: " << name << "\t\t\t\t\tDepartment:  " << department << "\n\t\t\t\t\tProcedure: " << procedure << "\n\t\t\t\t\tDate: " << preferredDate << endl;
         }
         else{
             cout <<"\n\t\t\t\t\tError ! Invalid character";

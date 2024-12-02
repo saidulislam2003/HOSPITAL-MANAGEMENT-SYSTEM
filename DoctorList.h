@@ -11,6 +11,14 @@ public:
     string name;
     int room;
     string contact;
+
+    // void display()
+    // {
+    //     cout << "\n\t\t\t\t\tAvailable Departments:\n";
+    //     cout << "\t\t\t\t\t1. Cardiology\t2. Orthopedics\t3. Medicine\n";
+    //     cout << "\t\t\t\t\t4. Gastrology\t5. Dermatology\t6. Surgery\n";
+    //     cout << "\t\t\t\t\t7. Neurology\n";
+    // }
 };
 
 class Cardiology : public DoctorInfo

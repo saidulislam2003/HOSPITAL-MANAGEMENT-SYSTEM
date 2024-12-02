@@ -23,6 +23,12 @@ int main()
 
     if(n == n1)
     {
+        cout << "\n\t\t\t\t\tAvailable Departments:\n";
+        cout << "\t\t\t\t\t1. Cardiology\t2. Orthopedics\t3. Medicine\n";
+        cout << "\t\t\t\t\t4. Gastrology\t5. Dermatology\t6. Surgery\n";
+        cout << "\t\t\t\t\t7. Neurology\n";
+        cout << endl;
+        
         cout << "\t\t\t\t\tDepartment: ";
         string department;
         cin.ignore();
