@@ -1,2 +1,0 @@
-Amelia 901 7789012345 Orthopedics BoneCare_Clinic Consultant
-Benjamin 902 8890123456 Orthopedics Ortho_Health Specialist
