@@ -75,6 +75,7 @@ int main()
             }
         }
 
+            
         else if(department == "Gastrology")
         {
             Gastrology Gas[3] = {
