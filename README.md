@@ -4,6 +4,7 @@ A comprehensive system for management patient appointment , doctor information a
  - Introduction
  - Features
  - Usage
+ - background analysis 
  ## Introduction
 The Hospital Management System (HMS) is designed to simplify the administrative and operational tasks of hospitals. This system helps in managing patients, doctors, appointments efficiently.
 ## Features
