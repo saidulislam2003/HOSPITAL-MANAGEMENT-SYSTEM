@@ -11,14 +11,14 @@ public:
     string name;
     int room;
     string contact;
-
-    // void display()
-    // {
-    //     cout << "\n\t\t\t\t\tAvailable Departments:\n";
-    //     cout << "\t\t\t\t\t1. Cardiology\t2. Orthopedics\t3. Medicine\n";
-    //     cout << "\t\t\t\t\t4. Gastrology\t5. Dermatology\t6. Surgery\n";
-    //     cout << "\t\t\t\t\t7. Neurology\n";
-    // }
+ 
+    virtual void display()
+    {
+        cout << "\n\t\t\t\t\tAvailable Departments:\n";
+        cout << "\t\t\t\t\t1. Cardiology\t2. Orthopedics\t3. Medicine\n";
+        cout << "\t\t\t\t\t4. Gastrology\t5. Dermatology\t6. Surgery\n";
+        cout << "\t\t\t\t\t7. Neurology\n";
+    }
 };
 
 class Cardiology : public DoctorInfo
@@ -40,6 +40,7 @@ public:
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "--------------------------" << endl;
         cout << name << endl;
@@ -69,6 +70,7 @@ class Orthopedics : public DoctorInfo
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "--------------------------" << endl;
         cout << name << endl;
@@ -98,6 +100,7 @@ class Medicine : public DoctorInfo
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "==============================" << endl;
         cout << name << endl;
@@ -127,6 +130,7 @@ class Gastrology : public DoctorInfo
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "--------------------------" << endl;
         cout << name << endl;
@@ -156,6 +160,7 @@ class Dermatology : public DoctorInfo
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "--------------------------" << endl;
         cout << name << endl;
@@ -185,6 +190,7 @@ class Surgery : public DoctorInfo
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "--------------------------" << endl;
         cout << name << endl;
@@ -214,6 +220,7 @@ class Neurology : public DoctorInfo
 
     void display()
     {
+        cout << "Available Doctors" << "\n";
         cout << endl;
         cout << "--------------------------" << endl;
         cout << name << endl;
