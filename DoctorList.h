@@ -28,7 +28,7 @@ public:
     string post;
     int position;
 
-    Cardiology(string name, int room, string contact, string institution, string post, int position):DoctorInfo(name,room,contact,institution,post,position)
+    Cardiology(string name, int room, string contact, string institution, string post, int position)
     {
         this->name = name;
         this->room = room;
